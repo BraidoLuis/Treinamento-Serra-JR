@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    height: 280px;
+    width: 600px;
+    background: #A50010;
+}
+.texto{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.box2{
+    height: 100px;
+    width: 600px;
+    margin-top: 30px;
+    background: #A50010;
+}
+.logo-serra {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 220px;
+}

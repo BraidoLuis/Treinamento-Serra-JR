@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tela 2.1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Serra Calculator</h1>
+        </div>
+        <div class="ope">
+            <div class="op">
+                <h3><b>Soma</b></h3>
+                <label><b>Numero 1 </b><input type="number" value="" id="n1"></label>
+                <label><b>Numero 2 </b><input type="number" value="" id="n2" onchange="soma()"></label>
+                <label><b>Resultado <input type="text" readonly value="" id="result1" ></b></label>
+            </div>
+            <div class="op">
+                <h3><b>Subtração</b></h3>
+                <label><b>Numero 1 </b><input type="number" value="" id="nu1"></label>
+                <label><b>Numero 2 </b><input type="number" value="" id="nu2" onchange="subtracao()"></label>
+                <label><b>Resultado <input type="text" readonly value="" id="result2" ></b></label>
+            </div>
+        </div>
+        <div class="ope2">
+            <div class="op">
+                <h3><b>Multiplicação</b></h3>
+                <label><b>Numero 1 </b><input type="number" value="" id="num1"></label>
+                <label><b>Numero 2 </b><input type="number" value="" id="num2" onchange="multiplicacao()"></label>
+                <label><b>Resultado <input type="text" readonly value="" id="result3" ></b></label>
+            </div>
+            <div class="op">
+                <h3><b>Divisão</b></h3>
+                <label><b>Numero 1 </b><input type="number" value="" id="nume1"></label>
+                <label><b>Numero 2 </b><input type="number" value="" id="nume2" onchange="divisao()"></label>
+                <label><b>Resultado <input type="text" readonly value="" id="result4" ></b></label>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

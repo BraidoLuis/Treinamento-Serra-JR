@@ -1,0 +1,14 @@
+.cima{
+    width: 100vw;
+    height: 108px;
+    display: flex;
+    background: #A50010;
+  }
+.cima h1{
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+}

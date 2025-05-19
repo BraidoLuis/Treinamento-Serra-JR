@@ -1,0 +1,84 @@
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 83vh;
+    color: black;
+}
+
+.container2 h1 {
+    font-size: 70px;
+}
+
+.container2 input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao {
+    width: 1200px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px ;
+    border: none;
+    border-radius: 8px;
+    background-color: #A50010;
+    color: white;
+    font-size: 28px;
+}
+.botao:hover {
+    cursor: pointer;
+    opacity: 40%;
+    transition: 0.3s;
+}
+.lista {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    gap: 50px;
+    margin: 10px ;
+}
+.item-caixa {
+    width: 200px;
+    height: 200px;
+    background-color: #A50010;
+    border-radius: 8px;
+    display: flex;
+}
+
+.conteudo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo h3 {
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.conteudo p {
+    font-size: 25px;
+    font-weight: 700;
+}
+.Lixo{
+    position: relative;
+    margin: 10px;
+}
+.lixo img{
+    cursor: pointer;
+
+}
